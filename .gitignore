@@ -1,4 +1,24 @@
+<<<<<<< HEAD
 .DS_Store
 cdk.context.*
 cdk.out
 .env
+=======
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
+>>>>>>> bc773af54121ddf11b96ed0f0e3fb8390f8ed4b9
